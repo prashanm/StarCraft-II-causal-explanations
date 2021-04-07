@@ -9,7 +9,7 @@ This framework generates causal explanations for StarCraft II agents using struc
 -requires [pysc2](https://github.com/deepmind/pysc2) 3.0+ to run. Please follow the installation instructions at pysc2 repo to install StarCraft II game and maps. Code was tested in a Linux environment. In a Windows system, framework should still work, but pysc2 won't be able to run headless.
 -requires Tensorflow 1.14 (only tested with this version).
 -requires [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/).
--requires [networkx](https://networkx.github.io/).
+-requires [networkx](https://networkx.github.io/) 1.11.
 -after installing Starcraft II and the maps, copy (and replace) the custom Simple64 map given in this repo to <StarcraftII directory>/StarCraftII/Maps/Melee/
 
 ### Training and generating explanations
