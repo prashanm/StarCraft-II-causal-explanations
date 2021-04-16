@@ -12,7 +12,7 @@ This framework generates causal explanations for StarCraft II agents using struc
 
 -requires [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/).
 
--requires [networkx](https://networkx.github.io/) 1.11.
+-requires [networkx](https://networkx.github.io/) 1.11 (only works with 1.11 version)
 
 -after installing Starcraft II and the maps, copy (and replace) the custom Simple64 map given in this repo to the StarCraft II installation directory<StarcraftII directory>/StarCraftII/Maps/Melee/
 
