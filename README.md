@@ -14,7 +14,7 @@ This framework generates causal explanations for StarCraft II agents using struc
 
 -requires [networkx](https://networkx.github.io/) 1.11.
 
--after installing Starcraft II and the maps, copy (and replace) the custom Simple64 map given in this repo to <StarcraftII directory>/StarCraftII/Maps/Melee/
+-after installing Starcraft II and the maps, copy (and replace) the custom Simple64 map given in this repo to the StarCraft II installation directory<StarcraftII directory>/StarCraftII/Maps/Melee/
 
 ### Training and generating explanations
 -To train with linear regressors for the Structural Causal Model (SCM)
